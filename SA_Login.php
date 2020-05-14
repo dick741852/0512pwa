@@ -34,9 +34,9 @@
            <div class="row justify-content-center">
                <div class="cal-4">
                     <form method="post" class="form-signin" style="width: 400px">
-                       <h1 class="h3 mb-3 font-weight-normal" style="padding-left:90px">請輸入帳號密碼</h1><br>
+                       <h1 class="h3 mb-3 font-weight-normal" style="padding-left:90px">請輸入帳號密碼222</h1><br>
                         <input type="text" name="id" placeholder="帳號" 
-                        value="<?php echo $id ?>" required autofocus class="form-control">
+                        value="<?php echo $id?>" required autofocus class="form-control"/>
                         <br>    
                         <input type="password" name="password" placeholder="密碼" required class="form-control">
                         <br>
@@ -44,7 +44,7 @@
                             echo $error;
                         ?>
                         <div class="mb-3">
-                        <label><a href="SA_Register.php">尚未註冊?</a></label>
+                        <label><a href="SA_Register.html">尚未註冊?</a></label>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block" type="submit">登入</button>
 

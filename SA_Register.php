@@ -36,7 +36,7 @@
                     max-width:960px;">
            <div class="row justify-content-center">
                <div class="cal-4">
-                    <form method="post" action="SA_Login.php" class="form-signin" style="width: 400px">
+                    <form method="post" action="SA_Login.html" class="form-signin" style="width: 400px">
                        <h1 class="h3 mb-3 font-weight-normal" style="padding-left:90px">請輸入基本資訊以註冊</h1><br>
                         <input type="text" name="person_id" placeholder="身分證字號" 
                         value="<?php echo $person_id ?>" required autofocus class="form-control">
@@ -52,7 +52,7 @@
                         <div class="mb-3">
                         <label><a href="XXXX">使用XX註冊(尚未實裝)</a></label>
                         <br>
-                        <label><a href="SA_Login.php">已有帳號?</a></label>
+                        <label><a href="SA_Login.html">已有帳號?</a></label>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block" type="submit">註冊且跳轉至登入畫面</button>
 
